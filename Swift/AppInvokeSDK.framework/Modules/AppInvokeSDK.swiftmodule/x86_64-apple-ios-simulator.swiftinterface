@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
-// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppInvokeSDK
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AppInvokeSDK
 @_exported import AppInvokeSDK
 import Foundation
 import Swift
@@ -8,15 +8,6 @@ import WebKit
 public protocol AIDelegate {
   func openPaymentWebVC(_ controller: UIKit.UIViewController?)
   func didFinish(with success: Swift.Bool, response: [Swift.String : Any])
-}
-public enum AIEnvironment {
-  case production
-  case staging
-  public static func == (a: AppInvokeSDK.AIEnvironment, b: AppInvokeSDK.AIEnvironment) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum AISubscriptionFlowType : Swift.String {
   case miniApp
@@ -33,15 +24,9 @@ public enum AISubscriptionFlowType : Swift.String {
   @objc deinit
 }
 extension AIHandler {
-  public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment)
-  public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment, subscriptionId: Swift.String, flowType: AppInvokeSDK.AISubscriptionFlowType)
+  public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, redirectionUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate)
 }
-public let PRODUCTION_PG_DOMAIN: Swift.String
-public let STAGING_PG_DOMAIN: Swift.String
+public var PRODUCTION_PG_DOMAIN: Swift.String
+public var STAGING_PG_DOMAIN: Swift.String
 public var kStaging_PGServerURL: Swift.String
 public var kProduction_PGServerURL: Swift.String
-extension AppInvokeSDK.AIEnvironment : Swift.Equatable {}
-extension AppInvokeSDK.AIEnvironment : Swift.Hashable {}
-extension AppInvokeSDK.AISubscriptionFlowType : Swift.Equatable {}
-extension AppInvokeSDK.AISubscriptionFlowType : Swift.Hashable {}
-extension AppInvokeSDK.AISubscriptionFlowType : Swift.RawRepresentable {}
