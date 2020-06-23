@@ -1,13 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AppInvokeSDK
 @_exported import AppInvokeSDK
 import Foundation
 import Swift
 import WebKit
+public enum PaymentStatus {
+  case success
+  case failed
+  case pending
+  public static func == (a: AppInvokeSDK.PaymentStatus, b: AppInvokeSDK.PaymentStatus) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
 public protocol AIDelegate {
   func openPaymentWebVC(_ controller: UIKit.UIViewController?)
-  func didFinish(with success: Swift.Bool, response: [Swift.String : Any])
+  func didFinish(with status: AppInvokeSDK.PaymentStatus, response: [Swift.String : Any])
 }
 public enum AISubscriptionFlowType : Swift.String {
   case miniApp
@@ -19,12 +29,12 @@ public enum AISubscriptionFlowType : Swift.String {
     get
   }
 }
-@objc public class AIHandler : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class AIHandler : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
 extension AIHandler {
-  public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, redirectionUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate)
+  public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate)
 }
 public var PRODUCTION_PG_DOMAIN: Swift.String
 public var STAGING_PG_DOMAIN: Swift.String
