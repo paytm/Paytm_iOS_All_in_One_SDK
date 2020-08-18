@@ -5,7 +5,11 @@
 import Foundation
 import Swift
 import WebKit
-@objc public enum PaymentStatus : Swift.Int {
+@objc(AIDelegate) public protocol AIDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func openPaymentWebVC(_ controller: UIKit.UIViewController?)
+  @objc func didFinish(with status: AppInvokeSDK.AIPaymentStatus, response: [Swift.String : Any])
+}
+@objc(AIPaymentStatus) public enum AIPaymentStatus : Swift.Int {
   case success
   case failed
   case pending
@@ -15,20 +19,25 @@ import WebKit
     get
   }
 }
-@objc public protocol AIDelegate {
-  @objc func openPaymentWebVC(_ controller: UIKit.UIViewController?)
-  @objc func didFinish(with status: AppInvokeSDK.PaymentStatus, response: [Swift.String : Any])
-}
-@objc public class AIHandler : ObjectiveC.NSObject {
+@objc(AIHandler) public class AIHandler : ObjectiveC.NSObject {
+  @objc public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment)
+  @objc public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment)
+  @objc public func version()
   @objc override dynamic public init()
   @objc deinit
 }
-extension AIHandler {
-  @objc dynamic public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate)
-  @objc dynamic public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate)
-  @objc dynamic public func version()
+@objc(AIEnvironment) public enum AIEnvironment : Swift.Int {
+  case production
+  case staging
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public var PRODUCTION_PG_DOMAIN: Swift.String
 public var STAGING_PG_DOMAIN: Swift.String
 public var kStaging_PGServerURL: Swift.String
 public var kProduction_PGServerURL: Swift.String
+public var kStaging_PGCallbackURL: Swift.String
+public var kProduction_PGCallbackURL: Swift.String

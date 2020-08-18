@@ -202,33 +202,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class UIViewController;
-enum PaymentStatus : NSInteger;
+enum AIPaymentStatus : NSInteger;
 
-SWIFT_PROTOCOL("_TtP12AppInvokeSDK10AIDelegate_")
-@protocol AIDelegate
+SWIFT_PROTOCOL_NAMED("AIDelegate")
+@protocol AIDelegate <NSObject>
 - (void)openPaymentWebVC:(UIViewController * _Nullable)controller;
-- (void)didFinishWith:(enum PaymentStatus)status response:(NSDictionary<NSString *, id> * _Nonnull)response;
+- (void)didFinishWith:(enum AIPaymentStatus)status response:(NSDictionary<NSString *, id> * _Nonnull)response;
 @end
 
+typedef SWIFT_ENUM_NAMED(NSInteger, AIEnvironment, "AIEnvironment", open) {
+  AIEnvironmentProduction = 0,
+  AIEnvironmentStaging = 1,
+};
 
-SWIFT_CLASS("_TtC12AppInvokeSDK9AIHandler")
+
+SWIFT_CLASS_NAMED("AIHandler")
 @interface AIHandler : NSObject
+- (void)openPaytmWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate environment:(enum AIEnvironment)environment;
+- (void)openPaytmSubscriptionWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate environment:(enum AIEnvironment)environment;
+- (void)version;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface AIHandler (SWIFT_EXTENSION(AppInvokeSDK))
-- (void)openPaytmWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate;
-- (void)openPaytmSubscriptionWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate;
-- (void)version;
-@end
 
-
-
-typedef SWIFT_ENUM(NSInteger, PaymentStatus, open) {
-  PaymentStatusSuccess = 0,
-  PaymentStatusFailed = 1,
-  PaymentStatusPending = 2,
+typedef SWIFT_ENUM_NAMED(NSInteger, AIPaymentStatus, "AIPaymentStatus", open) {
+  AIPaymentStatusSuccess = 0,
+  AIPaymentStatusFailed = 1,
+  AIPaymentStatusPending = 2,
 };
 
 #if __has_attribute(external_source_symbol)
@@ -439,33 +440,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class UIViewController;
-enum PaymentStatus : NSInteger;
+enum AIPaymentStatus : NSInteger;
 
-SWIFT_PROTOCOL("_TtP12AppInvokeSDK10AIDelegate_")
-@protocol AIDelegate
+SWIFT_PROTOCOL_NAMED("AIDelegate")
+@protocol AIDelegate <NSObject>
 - (void)openPaymentWebVC:(UIViewController * _Nullable)controller;
-- (void)didFinishWith:(enum PaymentStatus)status response:(NSDictionary<NSString *, id> * _Nonnull)response;
+- (void)didFinishWith:(enum AIPaymentStatus)status response:(NSDictionary<NSString *, id> * _Nonnull)response;
 @end
 
+typedef SWIFT_ENUM_NAMED(NSInteger, AIEnvironment, "AIEnvironment", open) {
+  AIEnvironmentProduction = 0,
+  AIEnvironmentStaging = 1,
+};
 
-SWIFT_CLASS("_TtC12AppInvokeSDK9AIHandler")
+
+SWIFT_CLASS_NAMED("AIHandler")
 @interface AIHandler : NSObject
+- (void)openPaytmWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate environment:(enum AIEnvironment)environment;
+- (void)openPaytmSubscriptionWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate environment:(enum AIEnvironment)environment;
+- (void)version;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface AIHandler (SWIFT_EXTENSION(AppInvokeSDK))
-- (void)openPaytmWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate;
-- (void)openPaytmSubscriptionWithMerchantId:(NSString * _Nonnull)merchantId orderId:(NSString * _Nonnull)orderId txnToken:(NSString * _Nonnull)txnToken amount:(NSString * _Nonnull)amount callbackUrl:(NSString * _Nullable)callbackUrl delegate:(id <AIDelegate> _Nonnull)delegate;
-- (void)version;
-@end
 
-
-
-typedef SWIFT_ENUM(NSInteger, PaymentStatus, open) {
-  PaymentStatusSuccess = 0,
-  PaymentStatusFailed = 1,
-  PaymentStatusPending = 2,
+typedef SWIFT_ENUM_NAMED(NSInteger, AIPaymentStatus, "AIPaymentStatus", open) {
+  AIPaymentStatusSuccess = 0,
+  AIPaymentStatusFailed = 1,
+  AIPaymentStatusPending = 2,
 };
 
 #if __has_attribute(external_source_symbol)
