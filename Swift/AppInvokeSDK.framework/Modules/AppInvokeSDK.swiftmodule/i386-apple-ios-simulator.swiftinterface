@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
-// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AppInvokeSDK
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppInvokeSDK
 @_exported import AppInvokeSDK
 import Foundation
 import Swift
@@ -22,7 +22,8 @@ import WebKit
 @objc(AIHandler) public class AIHandler : ObjectiveC.NSObject {
   @objc public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment)
   @objc public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment)
-  @objc public func version()
+  @objc public func setBridgeName(name: Swift.String)
+  @objc public func restrictAppInvokeFlow(restrict: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -35,9 +36,14 @@ import WebKit
     get
   }
 }
-public var PRODUCTION_PG_DOMAIN: Swift.String
-public var STAGING_PG_DOMAIN: Swift.String
+public let PRODUCTION_PG_DOMAIN: Swift.String
+public let STAGING_PG_DOMAIN: Swift.String
 public var kStaging_PGServerURL: Swift.String
 public var kProduction_PGServerURL: Swift.String
 public var kStaging_PGCallbackURL: Swift.String
 public var kProduction_PGCallbackURL: Swift.String
+extension AppInvokeSDK.AIPaymentStatus : Swift.Equatable {}
+extension AppInvokeSDK.AIPaymentStatus : Swift.Hashable {}
+extension AppInvokeSDK.AIPaymentStatus : Swift.RawRepresentable {}
+extension AppInvokeSDK.AIEnvironment : Swift.Hashable {}
+extension AppInvokeSDK.AIEnvironment : Swift.RawRepresentable {}
