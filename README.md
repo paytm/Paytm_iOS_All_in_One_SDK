@@ -9,9 +9,9 @@ Select Staging API for GTM
 2. change the three mentioned host's URLs as follows.
 2. Change the three mentioned host's URLs as follows.
 
-older link: https://accounts-uat.paytm.com
+older link: https://accounts-staging.paytm.in
 
-new link:  https://accounts-staging.paytm.in
+new link:  https://accounts-uat.paytm.com
 
 older link: https://securegw-staging.paytm.in
 
