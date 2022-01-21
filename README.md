@@ -2,7 +2,7 @@
 * More Details: **https://developer.paytm.com/docs/all-in-one-sdk/#ios**
 
 ## Paytm Staging App
-* App Link: https://testflight.apple.com/join/puqixmqV
+* App Link: https://testflight.apple.com/join/oeXnj05q
 
 Select Staging API for GTM
 1. Go to side menu -> scroll down -> Debub Setting -> Change Debug Link
