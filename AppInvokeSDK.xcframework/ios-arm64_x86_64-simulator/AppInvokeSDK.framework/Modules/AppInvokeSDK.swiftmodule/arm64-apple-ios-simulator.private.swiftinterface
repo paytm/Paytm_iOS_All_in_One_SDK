@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppInvokeSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AppInvokeSDK
@@ -24,12 +24,16 @@ import _StringProcessing
   }
 }
 @_inheritsConvenienceInitializers @objc(AIHandler) @_Concurrency.MainActor(unsafe) public class AIHandler : ObjectiveC.NSObject, UIKit.UIAdaptivePresentationControllerDelegate {
-  @objc @_Concurrency.MainActor(unsafe) public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment, mobileHash: Swift.String? = "", isMobileVerificationRequired: Swift.String? = "false", urlScheme: Swift.String?)
-  @objc @_Concurrency.MainActor(unsafe) public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment, mobileHash: Swift.String? = "", isMobileVerificationRequired: Swift.String? = "false", urlScheme: Swift.String?)
+  @objc @_Concurrency.MainActor(unsafe) public func openPaytm(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: any AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment, mobileHash: Swift.String? = "", isMobileVerificationRequired: Swift.String? = "false", urlScheme: Swift.String?)
+  @objc @_Concurrency.MainActor(unsafe) public func isUserLoggedIn(merchantId: Swift.String, urlScheme: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) public func openPaytmSubscription(merchantId: Swift.String, orderId: Swift.String, txnToken: Swift.String, amount: Swift.String, callbackUrl: Swift.String?, delegate: any AppInvokeSDK.AIDelegate, environment: AppInvokeSDK.AIEnvironment, mobileHash: Swift.String? = "", isMobileVerificationRequired: Swift.String? = "false", urlScheme: Swift.String?)
   @objc @_Concurrency.MainActor(unsafe) public func setBridgeName(name: Swift.String)
   @objc @_Concurrency.MainActor(unsafe) public func restrictAppInvokeFlow(restrict: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
+}
+extension AppInvokeSDK.AIHandler {
+  @_Concurrency.MainActor(unsafe) public func sdkVersion() -> Swift.String
 }
 @objc(AIEnvironment) public enum AIEnvironment : Swift.Int {
   case production

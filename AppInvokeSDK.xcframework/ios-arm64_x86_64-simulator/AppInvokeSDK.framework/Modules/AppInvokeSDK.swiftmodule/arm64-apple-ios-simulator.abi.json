@@ -585,6 +585,41 @@
           },
           {
             "kind": "Function",
+            "name": "isUserLoggedIn",
+            "printedName": "isUserLoggedIn(merchantId:urlScheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppInvokeSDK@objc(cs)AIHandler(im)isUserLoggedInMerchantId:urlScheme:",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC14isUserLoggedIn10merchantId9urlSchemeySS_SStF",
+            "moduleName": "AppInvokeSDK",
+            "objc_name": "isUserLoggedInMerchantId:urlScheme:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "openPaytmSubscription",
             "printedName": "openPaytmSubscription(merchantId:orderId:txnToken:amount:callbackUrl:delegate:environment:mobileHash:isMobileVerificationRequired:urlScheme:)",
             "children": [
@@ -784,6 +819,28 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppInvokeSDK9AIHandlerC10sdkVersionSSyF",
+            "mangledName": "$s12AppInvokeSDK9AIHandlerC10sdkVersionSSyF",
+            "moduleName": "AppInvokeSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1535,291 +1592,2013 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/Ext_Dictionary.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 13,
+      "value": "\"TXN_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIPaymentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 17,
       "value": "\"SDK_initialized\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
       "kind": "StringLiteral",
       "offset": 492,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 37,
+      "value": "\"https:\/\/securegw.paytm.in\/ui\/logger\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 27,
+      "value": "\"Error took place \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1457,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1663,
+      "length": 51,
+      "value": "\"Response HTTP Status code: \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 39,
+      "value": "\"Response data string:\n \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2294,
+      "length": 12,
+      "value": "\"AIO_SDK_PG\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 15,
+      "value": "\"eventCategory\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 12,
+      "value": "\"AIO_SDK_PG\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2369,
+      "length": 13,
+      "value": "\"eventAction\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2441,
+      "length": 9,
+      "value": "\"orderid\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2482,
+      "length": 13,
+      "value": "\"deviceModel\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2539,
+      "length": 6,
+      "value": "\"flow\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2549,
+      "length": 11,
+      "value": "\"AppInvoke\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2584,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2668,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 6,
+      "value": "\"%.0f\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2783,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2804,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2818,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2839,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 12,
+      "value": "\"eventLabel\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2908,
+      "length": 8,
+      "value": "\"Native\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2932,
+      "length": 5,
+      "value": "\"env\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2941,
+      "length": 19,
+      "value": "\"allinone_sdk_prod\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 463,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "StringLiteral",
       "offset": 836,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1606,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1156,
+      "length": 6,
+      "value": "\"true\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1650,
+      "offset": 1165,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
       "length": 7,
       "value": "\"false\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 69,
+      "value": "\"paytm:\/\/merchantPayment?mid=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
+      "length": 1,
+      "value": "\"&checkUserLoggedIn=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1567,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 27,
+      "value": "\"&callbackUrl=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "Dictionary",
+      "offset": 1905,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 169,
+      "value": "\"paytm:\/\/merchantpayment?txnToken=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3079,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3104,
+      "length": 1,
+      "value": "\"&mid=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3128,
+      "length": 1,
+      "value": "\"&amount=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 1,
+      "value": "\"&mobilehash=&mobileVerificationRequired=false\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3260,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3305,
+      "length": 232,
+      "value": "\"paytmpayments:\/\/merchantpayment?txnToken=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3364,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3389,
+      "length": 1,
+      "value": "\"&mid=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 1,
+      "value": "\"&amount=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3436,
+      "length": 1,
+      "value": "\"&mobilehash=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3470,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3473,
+      "length": 1,
+      "value": "\"&mobileVerificationRequired=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3536,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3619,
+      "length": 27,
+      "value": "\"&bridgeName=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3645,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3752,
+      "length": 27,
+      "value": "\"&callbackUrl=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3778,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4007,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4109,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4197,
+      "length": 18,
+      "value": "\"Paytm_App_exists\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4387,
+      "length": 15,
+      "value": "\"Paytm_H5_Load\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4497,
+      "length": 16,
+      "value": "\"webview-bridge\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4701,
+      "length": 18,
+      "value": "\"Paytm_App_invoke\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4734,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4814,
+      "length": 19,
+      "value": "\"app-invoke-bridge\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "Dictionary",
+      "offset": 4924,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5063,
+      "length": 18,
+      "value": "\"Paytm_App_invoke\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5096,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5167,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5176,
+      "length": 19,
+      "value": "\"URL is not valid.\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5327,
+      "length": 128,
+      "value": "\"paytm:\/\/subscriptionpayment?txnToken=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5407,
+      "length": 1,
+      "value": "\"&mid=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5431,
+      "length": 1,
+      "value": "\"&amount=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5454,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5518,
+      "length": 27,
+      "value": "\"&bridgeName=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5651,
+      "length": 27,
+      "value": "\"&callbackUrl=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5677,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "Dictionary",
+      "offset": 5980,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6190,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6199,
+      "length": 19,
+      "value": "\"URL is not valid.\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6858,
+      "length": 67,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6875,
+      "length": 1,
+      "value": "\"?mid=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6899,
+      "length": 1,
+      "value": "\"&orderId=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 6924,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7048,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7105,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7154,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7185,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7210,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7236,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7617,
+      "length": 56,
+      "value": "\"&checkout_product=AIO&sdk_version=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 7672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIEnvironment.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "Array",
       "offset": 605,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 782,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 13,
+      "value": "\"displayName\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 6,
+      "value": "\"icon\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 8,
+      "value": "\"scheme\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 1127,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 5,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1741,
+      "length": 73,
+      "value": "\"window.upiIntent.setUpiIntentApps('\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 2030,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 46,
+      "value": "\"Array convertIntoJSON - \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2612,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2672,
+      "length": 11,
+      "value": "\"tokenData\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2725,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 10,
+      "value": "\"deeplink\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3155,
+      "length": 26,
+      "value": "\"&source_callback=paytmmp\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 3383,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3479,
+      "length": 68,
+      "value": "\"getting error in url and urlString = \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3529,
+      "length": 3,
+      "value": "\" and packageName \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3701,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3737,
+      "length": 28,
+      "value": "\"\/theia\/api\/v1\/fetchPspApps\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3779,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3853,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4280,
+      "length": 6,
+      "value": "\"head\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4354,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4410,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 4418,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4674,
+      "length": 6,
+      "value": "\"🔴\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4736,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4772,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 5029,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5033,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 5168,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5465,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5469,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 5544,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5548,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 5645,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5842,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5855,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5869,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5881,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5915,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 5947,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "BooleanLiteral",
       "offset": 6085,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6484,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6711,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6728,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7025,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7094,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7105,
+      "length": 31,
+      "value": "\"Transaction has been canceled\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7339,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7493,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7544,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7556,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7683,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7852,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8096,
+      "length": 6,
+      "value": "\"Main\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8173,
+      "length": 9,
+      "value": "\"AIWebVC\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9150,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 9223,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9364,
+      "length": 20,
+      "value": "\"sendSignalToNative\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9758,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10471,
+      "length": 16,
+      "value": "\"🔶 Finish - \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10592,
+      "length": 45,
+      "value": "\"document.getElementById('response').value\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10912,
+      "length": 8,
+      "value": "\"STATUS\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11148,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11330,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11396,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11461,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 11600,
+      "length": 20,
+      "value": "\"Paytm_H5_Intercept\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11820,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12024,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12094,
+      "length": 13,
+      "value": "\"TXN_FAILURE\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12163,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12310,
+      "length": 20,
+      "value": "\"Paytm_H5_Intercept\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13155,
+      "length": 15,
+      "value": "\"Response_Back\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13184,
+      "length": 11,
+      "value": "\"backPress\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13272,
+      "length": 25,
+      "value": "\"🔶 decidePolicyFor - \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 13639,
+      "length": 39,
+      "value": "\"🔶 didStartProvisionalNavigation - \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14123,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14251,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14673,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14803,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14954,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 15406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 15725,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 15874,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16485,
+      "length": 15,
+      "value": "\"paytmcallback\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16523,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16553,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16659,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16713,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16871,
+      "length": 8,
+      "value": "\"STATUS\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 17951,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18099,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Dictionary",
+      "offset": 18201,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18528,
+      "length": 6,
+      "value": "\"head\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18550,
+      "length": 10,
+      "value": "\"txnToken\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18615,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18649,
+      "length": 5,
+      "value": "\"mid\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18698,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18840,
+      "length": 54,
+      "value": "\"https:\/\/securegw.paytm.in\/theia\/v1\/transactionStatus\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19019,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19054,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19094,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19147,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 19341,
+      "length": 6,
+      "value": "\"🔴\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 19815,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20353,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20398,
+      "length": 9,
+      "value": "\"txnInfo\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20744,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20751,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20786,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 20859,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21068,
+      "length": 7,
+      "value": "\"-._* \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21227,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21238,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21283,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "StringLiteral",
+      "offset": 21294,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "kind": "Array",
+      "offset": 21308,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 21380,
       "length": 26,
       "value": "\"Execute setUpiIntentApps\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 21431,
       "length": 16,
       "value": "\"Invoke PSP app\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 21380,
       "length": 26,
       "value": "\"Execute setUpiIntentApps\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIWebVC.swift",
       "kind": "StringLiteral",
       "offset": 21431,
       "length": 16,
       "value": "\"Invoke PSP app\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 19,
       "value": "\"securegw.paytm.in\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 25,
       "value": "\"securegw-stage.paytm.in\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 31,
       "value": "\"\/theia\/api\/v1\/showPaymentPage\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 448,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 31,
       "value": "\"\/theia\/api\/v1\/showPaymentPage\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 576,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 22,
       "value": "\"\/theia\/paytmCallback\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/ronitchaurasia\/Documents\/Paytm_repos\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
       "kind": "StringLiteral",
       "offset": 734,
       "length": 22,
       "value": "\"\/theia\/paytmCallback\""
+    },
+    {
+      "filePath": "\/Users\/sumitgarg\/jarvis-ios-invoke-redirection-sdk\/SDK\/AppInvokeSDK\/CodeFiles\/AIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 7,
+      "value": "\"1.6.0\""
     }
   ]
 }
