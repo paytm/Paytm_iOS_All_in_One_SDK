@@ -50,6 +50,8 @@ public var kStaging_PGServerURL: Swift.String
 public var kProduction_PGServerURL: Swift.String
 public var kStaging_PGCallbackURL: Swift.String
 public var kProduction_PGCallbackURL: Swift.String
+public var kStaging_PGtxnStatusURL: Swift.String
+public var kProduction_PGtxnStatusURL: Swift.String
 extension AppInvokeSDK.AIPaymentStatus : Swift.Equatable {}
 extension AppInvokeSDK.AIPaymentStatus : Swift.Hashable {}
 extension AppInvokeSDK.AIPaymentStatus : Swift.RawRepresentable {}
