@@ -1,7 +1,7 @@
 framework module AppInvokeSDK {
   umbrella header "AppInvokeSDK.h"
-
   export *
+
   module * { export * }
 }
 

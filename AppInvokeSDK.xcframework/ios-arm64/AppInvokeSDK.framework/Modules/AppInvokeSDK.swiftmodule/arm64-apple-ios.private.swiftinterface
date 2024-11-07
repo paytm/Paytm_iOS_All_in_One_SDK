@@ -1,13 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppInvokeSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AppInvokeSDK
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
+import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc(AIDelegate) public protocol AIDelegate : ObjectiveC.NSObjectProtocol {
   @objc func openPaymentWebVC(_ controller: UIKit.UIViewController?)
   @objc func didFinish(with status: AppInvokeSDK.AIPaymentStatus, response: [Swift.String : Any])
@@ -33,7 +37,7 @@ import _StringProcessing
   @objc deinit
 }
 extension AppInvokeSDK.AIHandler {
-  @_Concurrency.MainActor(unsafe) public func sdkVersion() -> Swift.String
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func sdkVersion() -> Swift.String
 }
 @objc(AIEnvironment) public enum AIEnvironment : Swift.Int {
   case production
